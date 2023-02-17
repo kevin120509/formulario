@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="tareaf.css">
+</head>
+<body>
+<div class="titulo ancho">
+  <h1>Te OFRECEMOS una amplia variedad de <SPAN> SEGUROS DE DIFERENTES MARCAS</SPAN></h1>
+</div>
+<br><br>
+<div class="fila1 ancho">
+<img class="monterrey" src="imagenes/segurosmonterrey.jpg" alt="logo de seguros monterrey">
+<img class="metlife" src="imagenes/logometlife.jpg" alt="logo de metlife">
+<img class="qualitas" src="imagenes/logoqualitas.jpg" alt="logo de qualitas">
+</div>
+
+<div class="fila2">
+<img class="multiva" src="imagenes/segurosmultiva.jpg" alt="logo de multiva">
+<img class="allianz" src="imagenes/allianz.jpg" alt="logo de allianz">
+<img class="aig" src="imagenes/aig.jpg" alt="logo de aig">
+</div>
+<br>
+<div class="formulario ancho">
+<h1>¿estas interesado en algun tipo de seguro?</h1>
+<br><p>dejanos tus datos y contactaremos contigo</p>
+<p>(campos obligatorios*)</p>
+<br>
+<form action="">
+  <input required type="text" placeholder="nombre">
+  <br>
+  <input type="text" placeholder="apellidos">
+  <br>
+  <input required type="number" placeholder="telefono">
+  <br>
+  <select required name="seguro" id="seguro">
+    <option value="">elige tu seguro</option>
+    <option value="seguros monterrey">sguros monterrey</option>
+    <option value="seguros metlife">seguros metlife</option>
+    <option value="seguro qualitas">seguros qualitas</option>
+    <option value="seguro multiva">seguro multiva</option>
+    <option value="seguro allianz">seguro allianz</option>
+    <option value="seguro aig">seguro aig</option>
+  </select>
+  <br>
+  <textarea required name="comentario" id="caja" placeholder="comentarios"></textarea>
+  <br><br>
+  <input required type="checkbox" value="si"><label for="">He leido y acepto todas las <span class="rojo">condiciones legales</span> </label>
+  <br><br>
+  <div class="centrar_boton">
+    <button class="boton">solicitar informacion</button>
+  </div>
+</form>
+</div>
+</body>
+</html>

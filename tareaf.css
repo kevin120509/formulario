@@ -1,0 +1,113 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  color: #333;
+  background-color: #cdcdcd;
+}
+.ancho{
+  width: 1200px;
+  margin: auto;
+}
+.titulo h1{
+  font-family: impact;
+  text-align: center;
+  margin-top: 15px;
+}
+.titulo span{
+  font-family: impact;
+  text-align: center;
+  color: #6A9730;
+}
+.fila1{
+  text-align: center;
+  vertical-align: middle;
+  line-height: 50px;
+}
+.monterrey{
+  display: inline-block;
+
+}
+.metlife{
+ display: inline-block;
+ margin-left: 70px;
+}
+.qualitas{
+ display: inline-block;
+ margin-left: 70px;
+}
+.fila2{
+  text-align: center;
+  vertical-align: middle;
+}
+.multiva{
+  display: inline-block;
+  margin-left: 30px;
+}
+.allianz{
+   display: inline-block;
+   margin-left: 64px;
+}
+.aig{
+   display: inline-block;
+   margin-left: 70px; 
+}
+.formulario{
+  background-color: #EEEEEE;
+  border: 3px #b5b5b5 solid;
+  border-radius: 40px;
+}
+.formulario h1{
+  text-align: center;
+  padding-top: 30px;
+}
+.formulario p{
+  text-align: center;
+  color: #858080;
+}
+.formulario input{
+  margin-left: 70px;
+  padding-right: 870px;
+  padding-bottom: 20px;
+  border: 0;
+  margin-bottom: 10px;
+}
+.formulario select{
+  margin-left: 70px;
+  padding-right: 913px;
+  padding-bottom: 20px;
+  border: 0;
+  margin-bottom: 10px;
+}
+.formulario textarea{
+  width: 1041px;
+  height: 200px;
+  margin-left:70px ;
+  padding-bottom: 10px;
+font-family: helvetica;
+}
+.formulario label{
+  margin-left: 10px;
+
+}
+.rojo{
+  color: red;
+text-decoration: underline;
+}
+.boton{
+  padding: 15px 120px;
+  background-color: #F29F05;
+  color: white;
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+  border: 1px black solid;
+}
+.centrar_boton{
+  text-align: center;
+}
